@@ -1,0 +1,122 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+#app {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 850px;
+  margin: 2.75rem auto;
+  line-height: 1.5;
+}
+
+#nav {
+  font-weight: 600;
+  padding: 1.5rem 4rem;
+  background-color: #3a3d5c;
+}
+
+#nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 2rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.5s ease;
+}
+
+#nav a:hover {
+  border-bottom-color: #ffffff;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.625rem 1.25rem;
+  background-color: #3a3d5c;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #151621;
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.go-back {
+  text-align: center;
+}
+
+.go-back button {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px #3a3d5c solid;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline #93c693 solid 3px;
+  text-underline-offset: 10px;
+}
+
+/* Random Quotes Page */
+.quotes {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.quotes h1 {
+  margin-bottom: 2.4rem;
+}
+
+.author {
+  font-style: italic;
+  color: #545454;
+  margin-top: 0.313rem;
+}
+
+/* Contact page */
+.contact {
+  text-align: center;
+}
+
+.greeting {
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.email {
+  color: #000;
+  text-decoration: underline #000 solid 2px;
+  text-underline-offset: 2px;
+}
+
+/* Not Found page */
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #000;
+  text-decoration: underline #000 solid 2px;
+  text-underline-offset: 2px;
+}
+
+.not-found a:hover {
+  text-decoration-thickness: 3px;
+  transition: text-decoration-thickness 0.3s ease-in-out;
+}
