@@ -1,0 +1,105 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+#app {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 850px;
+  margin: 2.75rem auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#nav {
+  font-weight: 600;
+  padding: 1.5rem 4rem;
+  background-color: #3a3d5c;
+}
+
+#nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 2rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.5s ease;
+}
+
+#nav a:hover {
+  border-bottom-color: #ffffff;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.625rem 1.25rem;
+  background-color: #3a3d5c;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #151621;
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.go-back button {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px #3a3d5c solid;
+  border-radius: 10px;
+}
+
+h1 {
+  text-decoration: underline #93c693 solid 3px;
+  text-underline-offset: 10px;
+}
+
+/* About Page */
+.about p {
+  text-align: left;
+}
+
+/* Random Quotes Page */
+.quotes h1 {
+  margin-bottom: 2.4rem;
+}
+
+.author {
+  font-style: italic;
+  color: #545454;
+  margin-top: 0.313rem;
+}
+
+/* Contact page */
+.greeting {
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+/* Not Found page */
+.not-found a,
+.email {
+  color: #000;
+  text-decoration: underline #000 solid 2px;
+  text-underline-offset: 2px;
+}
+
+.not-found a:hover {
+  text-decoration-thickness: 3px;
+  transition: text-decoration-thickness 0.3s ease-in-out;
+}
